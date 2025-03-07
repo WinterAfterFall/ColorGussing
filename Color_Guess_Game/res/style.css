@@ -1,0 +1,18 @@
+.button {
+    -fx-background-color: #FFFF8F;
+    -fx-text-fill: black;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-padding: 10px 40px;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+.button:hover {
+    -fx-background-color: #FDDA0D;
+}
+
+.outlined-label {
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+}
